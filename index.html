@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Art : Landing Page</title>
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -18,13 +19,13 @@
       <nav class="nav-bar">
         <div class="logo"><h1>DSR</h1></div>
         <ul class="nav-links">
-          <li><a href="">Intro</a></li>
-          <li><a href="">Explore</a></li>
-          <li><a href="">Category</a></li>
-          <li><a href="">Contact Us</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#explore">Explore</a></li>
+          <li><a href="#aboutme">About</a></li>
         </ul>
       </nav>
-      <header class="header-container">
+      <header class="header-container" id="home">
         <div class="header-left">
           <h1 class="main-headings">
             I'm a <br />
@@ -61,7 +62,7 @@
       </div>
     </div>
 
-    <main class="gallery container">
+    <main class="gallery container" id="gallery">
       <div class="title">
         <h3>My Gallery</h3>
         <p>
@@ -69,28 +70,68 @@
           Here are some images captured by my camera
         </p>
       </div>
-      <div class="my-albums">
-        <div class="album-row">
+      <div class="albums-container">
+        <div class="image">
           <img src="images/arts/art1.jpg" alt="" />
+        </div>
+        <div class="image">
           <img src="images/arts/art2.jpg" alt="" />
+        </div>
+        <div class="image">
           <img src="images/arts/art3.jpg" alt="" />
+        </div>
+        <div class="image">
           <img src="images/arts/art4.avif" alt="" />
         </div>
-        <div class="album-row row-2">
+        <div class="image">
           <img src="images/arts/art5.jpg" alt="" />
+        </div>
+        <div class="image">
           <img src="images/arts/art6.jpg" alt="" />
+        </div>
+        <div class="image">
           <img src="images/arts/art7.jpg" alt="" />
         </div>
-        <div class="album-row">
-          <img src="images/arts/art9.jpg" alt="" />
+        <div class="image">
           <img src="images/arts/art10.jpg" alt="" />
+        </div>
+        <div class="image">
+          <img src="images/arts/art9.jpg" alt="" />
+        </div>
+        <div class="image">
+          <img src="images/arts/art10.jpg" alt="" />
+        </div>
+        <div class="image">
           <img src="images/arts/art11.jpg" alt="" />
+        </div>
+        <div class="image">
           <img src="images/arts/art12.jpg" alt="" />
         </div>
       </div>
     </main>
 
-    <section class="container category">
+    <section class="about container" id="aboutme">
+      <h3>About Me</h3>
+      <div class="aboutme">
+        <div class="about-img">
+          <img src="images/profile.jpg" alt="" />
+        </div>
+        <div class="header-right about-content">
+          <h2>Iam</h2>
+          <h1 class="main-headings">
+            <span> Princess jency</span>
+          </h1>
+          <p class="secondary-content">
+            Iam a creative individual who uses technology and digital tools to
+            express my artistic vision. i likely have a strong command of
+            various digital software and tools, such as graphic design programs,
+            illustration software, and possibly 3D modeling applications.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="container category" id="explore">
       <div class="left">
         <h1 class="main-headings">
           <span>types of arts</span>
@@ -108,13 +149,13 @@
       <div class="list-items">
         <div class="menu-bar">
           <ul>
-            <li class="active">Nature</li>
-            <li>Birds</li>
-            <li>Animals</li>
-            <li>Fish</li>
+            <li class="active">Painting</li>
+            <li>3D Art</li>
+            <li>Animation</li>
+            <li>2D Art</li>
           </ul>
         </div>
-        <div class="menu-items">
+        <div class="menu-items painting">
           <div class="item">
             <img src="images/draw/d1.jpg" alt="" />
           </div>
@@ -134,6 +175,30 @@
             <img src="images/draw/d6.jpg" alt="" />
           </div>
         </div>
+        <div class="menu-items art3d">
+          <div class="item">
+            <img src="images/draw/d1.jpg" alt="" />
+          </div>
+          <div class="item">
+            <img src="images/draw/d2.jpg" alt="" />
+          </div>
+        </div>
+        <div class="menu-items anim">
+          <div class="item">
+            <img src="images/draw/d1.jpg" alt="" />
+          </div>
+          <div class="item">
+            <img src="images/draw/d2.jpg" alt="" />
+          </div>
+        </div>
+        <div class="menu-items art2d">
+          <div class="item">
+            <img src="images/draw/d1.jpg" alt="" />
+          </div>
+          <div class="item">
+            <img src="images/draw/d2.jpg" alt="" />
+          </div>
+        </div>
       </div>
     </section>
 
@@ -142,12 +207,10 @@
         <div class="footer">
           <div class="logo-container">
             <div class="logo">
-              <h1>BeeEyee</h1>
+              <h1><span>DSR</span></h1>
             </div>
             <p class="text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Temporibus, exercitationem facere accusamus praesentium deserunt
-              itaque ratione
+              Iam an digital Artist, I have done some artist works
             </p>
           </div>
           <div class="footer-items">
@@ -174,5 +237,7 @@
         <p class="copy">- Copyright 2024 -</p>
       </div>
     </footer>
+
+    <script></script>
   </body>
 </html>
